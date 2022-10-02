@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://raw.githubusercontent.com/ChatCamp/ChatCamp-Android-SDK/master/" }
     }
 }
 rootProject.name = "demo-android-chat-chatcamp"
